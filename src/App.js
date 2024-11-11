@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import Explore from './Explore.js';
 import About from './About.js';
 import Contact from './Contact.js';
-import Board from './component/javascript/Board.jsx';
+import Home from './Home.js';
 
 
 
@@ -16,12 +16,12 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Board />} />
+        <Route path="/" element={<Home />} />
         <Route path='/explore' element={<Explore />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-      <Board />
+
     </BrowserRouter >
 
 
