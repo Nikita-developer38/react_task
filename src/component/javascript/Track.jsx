@@ -12,7 +12,7 @@ function Track() {
                 <div>
                     <div>
                         <h3>
-Location
+                         Location
                         </h3>
                         <div className="city">
                             <div>
