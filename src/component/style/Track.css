@@ -1,0 +1,19 @@
+.b-circle{
+width:16px;
+height: 16px;
+border-radius: 100%;
+background-color: #AEC8FC;
+
+}
+.s-circle{
+width:8px;
+height: 8px;
+border-radius: 100%;
+background-color: #3563E9;
+text-align: center;
+align-items: center;
+}
+.city{
+    display: flex;
+    flex-direction: row;
+}

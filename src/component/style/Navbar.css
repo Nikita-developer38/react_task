@@ -1,23 +1,30 @@
-.container{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    
-}
-.nav-list{
+.nav-div{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    
+    justify-content: space-around;
+    padding:10px;
 }
-.nav-list a{
-    text-decoration: none;
-    list-style: none;
-    font-style: oblique;
-    font-size: 24px;
-    color: black;
+.header{
+    color: #3563E9;
+    font-weight: bold;
+    font-size: 32px;
 }
-.nav-header{
-    font-family: cursive;
-    text-align: center;
+
+.search{
+    border: none;
+    color:#596780
+}
+.search-bar{
+border: 0.4px solid #C3D4E9;
+border-radius: 20px;
+width:320px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+#setting{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
