@@ -14,7 +14,7 @@ function Card(props) {
           </div>
         </div>
         <div className="name">{props.name}</div>
-        <img src={props.img} style={{ margin: "15px" }} />
+        <img src={props.img} alt="car" style={{ margin: "15px" }} />
         <div className="info">
           <div className="information">
             <div>
