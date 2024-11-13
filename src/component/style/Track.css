@@ -17,3 +17,28 @@ align-items: center;
     display: flex;
     flex-direction: row;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.roww{
+    display: flex;
+    flex-direction: row;
+}
+.body{
+    background-color: #ffffff;
+    padding:20px;
+    border-radius: 10px;
+    width: 552px;
+}
+.line{
+    width: 1px;
+    height: 60px;
+    background-color: #bebebe;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-items: center;
+    align-self: center;
+    
+}

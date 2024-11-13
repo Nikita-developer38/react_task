@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding:10px;
+    background-color: #ffffff;
 }
 .header{
     color: #3563E9;
